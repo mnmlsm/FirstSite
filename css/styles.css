@@ -5,10 +5,9 @@ body {
 }
 
 h1 {
+  font-size: 5.625rem;
   margin-top: 0;
-  font-size: 90px;
   font-family: 'Sacramento', cursive;
-
 }
 
 h2 {
@@ -33,7 +32,7 @@ h3 {
 
 }
 
-span {
+.pro {
   text-decoration: underline;
 }
 
