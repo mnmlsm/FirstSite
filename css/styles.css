@@ -32,6 +32,10 @@ a {
   font-family: 'Montserrat', sans-serif;
 }
 
+a:hover {
+  color: #EAF6F6;
+}
+
 .skill-row {
   margin: 100px auto;
   text-align: left;
