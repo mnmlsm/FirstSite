@@ -1,4 +1,5 @@
 body {
+  color: #04514E;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -28,6 +29,7 @@ h3 {
 
 a {
   color: #11999E;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .skill-row {
@@ -41,6 +43,8 @@ a {
   background-color: #EAF6F6;
   position: relative;
   padding-top: 100px;
+  max-width: 100%;
+  height: auto;
 }
 
 .bottom-container {
@@ -51,18 +55,24 @@ a {
 
 .pro {
   text-decoration: underline;
+  z-index: 1;
 }
 
 .top-cloud {
   position: absolute;
   right: 300px;
   top: 50px;
+  max-width: 100%;
+  height: auto;
+  z-index: 0;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
-  bottom: 300px;
+  right: 30px;
+  bottom: 200px;
+  max-width: 100%;
+  height: auto;
 }
 
 .coding-img {
@@ -132,7 +142,7 @@ p {
 
 .author-text {
   color: #EAF6F6;
-  font-size: 10px;
+  font-size: 60%;
 }
 
 .contact-me h3 {
@@ -158,4 +168,9 @@ hr {
   width: 50px;
   border: 7px dotted #EAF6F6;
   border-top-style: none;
+}
+
+.mountain-img {
+  max-width: 100%;
+  height: auto;
 }
